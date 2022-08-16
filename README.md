@@ -1,3 +1,4 @@
+![Dave](https://i.imgur.com/xy66zsi.png)
 # Dave
 
 ### A humble and unnecessary JS frontend framework
