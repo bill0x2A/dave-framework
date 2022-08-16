@@ -17,6 +17,7 @@ function recusivelyRenderElement(parentElementId, element) {
 
 
     // Progressively add all attributes to dom element
+    // Special cases for class or style attributes
     if(element.attrs){
         Object.entries(element.attrs).forEach(([key, value]) => {
             switch(key) {
@@ -37,13 +38,6 @@ function recusivelyRenderElement(parentElementId, element) {
             }
         });
     }
-
-
-    // Add all styles to the element
-    if(element.style) {
-
-    }
-
 
     // Append the element to its parent
     document.getElementById(parentElementId).append(newElement);
