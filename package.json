@@ -1,0 +1,32 @@
+{
+  "name": "dave",
+  "version": "0.0.1",
+  "description": "Dave frontend framework",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode development",
+    "serve": "npm run build && npx http-server ./public -c-1 -p 0"
+  },
+  "keywords": [
+    "frontend",
+    "framework",
+    "javascript",
+    "dave",
+    "jsx"
+  ],
+  "author": "bill0x2a",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^14.1.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
