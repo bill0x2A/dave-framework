@@ -13,3 +13,9 @@ Building one yourself is surely the best way to gain appreciation for what you *
 
 ### Bill's broken shitlist: 
  - Typescript
+
+### TODO:
+
+- [ ] Fix Typescript support and compilation
+- [ ] Handle `src` property
+- [ ] Reactive state and DOM updating (lol)
