@@ -21,3 +21,6 @@ Building one yourself is surely the best way to gain appreciation for what you *
 - [ ] Fix Typescript support and compilation
 - [ ] Handle `src` property
 - [ ] Reactive state and DOM updating (lol)
+
+References
+[Web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
