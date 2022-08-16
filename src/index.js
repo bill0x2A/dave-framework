@@ -4,7 +4,7 @@ import { v4 as uuid } from 'uuid';
 
 /**
  * @dev Recursively render DOM elements
- * @param {Object} parentElement 
+ * @param {String} parentElementId 
  * @param {Object} element 
  */
 function recusivelyRenderElement(parentElementId, element) {
@@ -41,7 +41,6 @@ function recusivelyRenderElement(parentElementId, element) {
 
     // Append the element to its parent
     document.getElementById(parentElementId).append(newElement);
-
 
     // Recursively render child elements
     if(element.children && element.children.length > 0) {
