@@ -17,6 +17,7 @@ Building one yourself is surely the best way to gain appreciation for what you *
 
 ### TODO:
 
+- [ ] Hot reloading for testing
 - [ ] Fix Typescript support and compilation
 - [ ] Handle `src` property
 - [ ] Reactive state and DOM updating (lol)
